@@ -24,7 +24,7 @@ function Card() {
     <div className="card">
       <h2 className="title">All Hotels</h2>
       {hotels && hotels.length ? (
-        <div>
+        <div className="flexWrap">
           {hotels.map((hotel) => (
             <Information key={hotel.id} hotel={hotel} />
           ))}

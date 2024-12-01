@@ -27,6 +27,11 @@ h1 {
   margin: 0px;
 }
 
+.flexWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* NAV */
 .navbar {
   padding: 20px;
@@ -87,7 +92,7 @@ h1 {
 }
 .hotel-preview {
   padding: 0px;
-  width: 60%;
+  width: 18%;
   margin: 0 auto;
   border-radius: 16px;
   background-color: white;
